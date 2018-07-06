@@ -1,11 +1,11 @@
-# Google Tag Manager Data Layer by Powertic
+# GTM for WP Admin + WP Ultimo by Svensk Kodtjänst
 
-Google Tag Manager DataLayer plugin put all wordpress info from platform, woocommerce,
-user-agent, analytics utm and more on your GTM DataLayer.
+GTM for WP Admin plugin put all wordpress info from platform, wp ultimo,
+user, browser, analytics utm and more on your GTM DataLayer.
 
 ## How to Install
 
-Just download the latest version from Github here: https://github.com/powerticmkt/wp-gtm-datalayer/archive/master.zip
+Just download the latest version from Github here: https://github.com/kodtjanst/wp-gtm-datalayer-for-wp-admin/archive/master.zip
 
 Important: This plugin is not listed on Wordpress directory until release of first stable version.
 
@@ -47,6 +47,11 @@ Return the month of post publish date
 `gtmPagePostDateDay`:
 Return the day of post publish date
 
+### WordPress Multisite Variables
+
+
+### User Variables
+
 `gtmUserEmail`:
 Return the current user e-mail
 
@@ -56,10 +61,7 @@ Return the current user role
 `gtmUserId`:
 Return the current user ID
 
-`gtmLogin`:
-Return the status "logged" or "anonymous"
-
-### User Agent / Browser Variables
+### Browser Variables
 
 `gtmBrowserName`
 Return the Browser name
