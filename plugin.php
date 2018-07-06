@@ -22,8 +22,8 @@ define('gtmdl_PLUGIN_DIR', plugin_dir_path(__FILE__));
 // Store plugin main file path
 define('gtmdl_PLUGIN_FILE', __FILE__);
 
-// Action to hook up plugin scripts to page head
-add_action('wp_head', 'wpgtmdl_datalayer_data');
+// Action to hook up plugin scripts to admin head
+add_action('admin_head', 'wpgtmdl_datalayer_data');
 
 // Verify if WooCommerce is active
 function is_woocommerce_active()
@@ -55,6 +55,7 @@ function wpgtmdl_datalayer_data()
     if ($wp_userid > 0) {
         $dataLayer["gtmWPUserId"] = $wp_userid;
     }
+    
 
     //TEST: return utm_source var
     if (isset($_GET['utm_source'])):
