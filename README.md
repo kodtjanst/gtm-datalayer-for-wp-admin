@@ -1,4 +1,4 @@
-# GTM for WP Admin + WP Ultimo by Svensk Kodtjänst
+# GTM for WP Admin + WP Ultimo by SkilledPeople
 
 GTM for WP Admin plugin put all wordpress info from platform, wp ultimo,
 user, browser, analytics utm and more on your GTM DataLayer.
